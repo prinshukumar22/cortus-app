@@ -1,6 +1,5 @@
-# Snappy - Chat Application 
-Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
-
+# Cortus - Chat Application 
+Cortus is chat application build with the power of MERN Stack.
 
 ![login page](./images/snappy_login.png)
 
@@ -12,11 +11,11 @@ Snappy is chat application build with the power of MERN Stack. You can find the 
 - [Nodejs](https://nodejs.org/en/download)
 - [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
 
-Both should be installed and make sure mongodb is running.
+Both should be installed.
 
 ```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
-cd chat-app-react-nodejs
+git clone https://github.com/prinshukumar22/cortus-app
+cd cortus-app
 ```
 Now rename env files from .env.example to .env
 ```shell
@@ -31,24 +30,24 @@ cd ..
 Now install the dependencies
 ```shell
 cd server
-yarn
+npm install
 cd ..
 cd public
-yarn
+npm install
 ```
 We are almost done, Now just start the development server.
 
 For Frontend.
 ```shell
 cd public
-yarn start
+npm start
 ```
 For Backend.
 
 Open another terminal in folder, Also make sure mongodb is running in background.
 ```shell
 cd server
-yarn start
+npm start
 ```
 
 Done! Now open localhost:3000 in your browser.
