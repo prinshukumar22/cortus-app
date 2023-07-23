@@ -1,9 +1,9 @@
 # Cortus - Chat Application 
 Cortus is chat application build with the power of MERN Stack.
 
-![login page](./images/snappy_login.png)
+![login page](./public/src/assets/login)
 
-![home page](./images/snappy.png)
+![home page](./public/src/assets/home.png)
 
 ## Installation Guide
 
